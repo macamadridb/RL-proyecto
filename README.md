@@ -16,7 +16,7 @@ En este proyecto, nos centramos en el entorno FetchReach-v3, donde el **robot Fe
 
 El entorno de FetchReach incluye un manipulador móvil de 7 grados de libertad (7-DoF) con una pinza de dos dedos, capaz de moverse en coordenadas cartesianas. La tarea consiste en mover el efector final a una posición aleatoria en el espacio de trabajo.
 
-Más detalles en la [documentación de Gymnasium-Robotics](https://farama.org/Gymnasium-Robotics/).
+Más detalles en la [documentación de Gymnasium-Robotics](https://robotics.farama.org/index.html).
 
 ### Algoritmos Utilizados
 
