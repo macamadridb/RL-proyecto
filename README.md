@@ -32,8 +32,10 @@ Ambos algoritmos se evaluarán con recompensas **sparse** y **dense** para ver c
 Para ejecutar el proyecto, asegúrate de tener:
 
 - **Python** (versión recomendada: 3.8 o superior)
-- **Gymnasium-Robotics**
-- **MuJoCo**
+- **Gymnasium** (versión 1.0.0)
+- **Gymnasium-Robotics** (versión 1.3.1)
+- **Stable-baselines3** (versión 2.4.0a11)
+- **MuJoCo** (versión 3.1.6)
 
 ### Instalación
 
