@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from stable_baselines3 import PPO, TD3
 from algoritmo_ppo import entrenar_ppo
 from algoritmo_td3 import entrenar_td3
+import gymnasium_robotics
 
 # Función para graficar los resultados de rendimiento
 def plot_rewards(rewards_ppo, rewards_td3):
@@ -26,6 +27,7 @@ def main():
     args = parser.parse_args()
 
     # Crear el entorno
+    gym.register_envs(gymnasium_robotics)
     env = gym.make(args.env, render_mode="human")
     env.reward_type = args.reward
 

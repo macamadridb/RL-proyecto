@@ -3,7 +3,7 @@ import numpy as np
 
 # Función para entrenar PPO
 def entrenar_ppo(env, timesteps):
-    model = PPO("MlpPolicy", env, verbose=1, learning_rate=0.001)
+    model = PPO("MultiInputPolicy", env, verbose=1, learning_rate=0.001)
     
     # Lista para almacenar las recompensas de cada episodio
     rewards = []
