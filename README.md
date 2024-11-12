@@ -48,7 +48,10 @@ Para ejecutar el proyecto, asegúrate de tener:
 2. Instala las dependencias:
 
    ```bash
-   pip install -r requirements.txt
+   pip install gymnasium==1.0.0
+   pip install gymnasium-robotics==1.3.1
+   pip install stable-baselines3==2.4.0a11
+   pip install mujoco==3.1.6
 
 3. Asegúrate de tener MuJoCo y Gymnasium-Robotics configurados correctamente en tu entorno.
 
