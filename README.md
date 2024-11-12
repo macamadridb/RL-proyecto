@@ -60,7 +60,7 @@ Para ejecutar el proyecto, asegúrate de tener:
 Para entrenar el agente en FetchReach-v3, puedes ejecutar:
 
 ```bash
-python main.py --env FetchReach-v3 --algo PPO --reward sparse
+python test.py --env FetchReach-v3 --algo PPO --reward sparse
 ```
 
 Modifica los parámetros `--algo` y `--reward` para cambiar el algoritmo o el tipo de recompensa.
